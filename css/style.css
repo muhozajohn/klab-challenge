@@ -37,7 +37,7 @@ html{
 .main-container{
     background-color: var(--color-light);
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-radius: 0.5rem;
     height: 94vh;
     display: grid;
