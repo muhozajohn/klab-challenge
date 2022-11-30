@@ -21,9 +21,6 @@
     --transition: all 400ms ease;
 }
 html{
-    /* background-image: url(../image/background.jpg);
-    background-position: center;
-    background-repeat: no-repeat; */
     background: linear-gradient(
         to right,
         rgb(76,111,255) 0%,
@@ -183,7 +180,8 @@ i img{
     background-color: var(--color-light);
     width: 90%;
     height: auto;
-    /* left: 3rem; */
+    display: flex;
+    flex-direction: column;
     border-radius: 0.5rem;
     padding: 0.8rem 0.8rem;
     margin-bottom: 3rem;
@@ -279,11 +277,7 @@ button{
 
 
 .container1 {
-    top: 30%;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    /* background-color: #00bf8e; */
 }
 
 
@@ -333,4 +327,11 @@ button{
     position: absolute;
     width: 100%;
     font-size: 16px;
+}
+
+
+.statics{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
 }
